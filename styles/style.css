@@ -6,24 +6,29 @@
      }
    
    body {
-     background-color: #64A6BD;
+    background-image: url("/styles/images/mohit-kumar-Gsm7z0nvXNU-unsplash.jpg");
+    background-repeat: no-repeat;
      justify-content: center;
      align-items: center;
      display: flex;
      min-height: 100vh;
        }
 .box {
-    background-color: #efefef;
+    background-color: #f7f7f7;
     padding-left: 60px;
     padding: 60px;
+    border: solid black;
+     border-radius: 40px;
+    box-shadow: 12px 12px 2px 1px;
+    
 }
 
 .box h2 {
     margin-bottom: 40px;
    text-align: center;
    font-size: 26px;
-   color: #c2095a;
-   font-family: sans-serif;
+   color: #180c0c;
+   font-family: 'Trebuchet MS','Time New Roman',sans-serif;
 }
 input {
     padding: 20px;
@@ -31,8 +36,9 @@ input {
     height: 50px;
     width: 400px;
     border-radius: 6px;
-    border: none;
-    border: 2px solid #64A6BD;
+    border: 1px solid;
+    
+    border-radius:20px;
     outline: none;
     font-size: 22px;
 }
@@ -44,8 +50,9 @@ input {
      display: flex;
      font-size: 20px;
      font-weight: 500;
-     background-color: #64A6BD;
-     color: #c2095a;
+     font-family: 'Trebuchet MS','Time New Roman',sans-serif;
+     background-color: #f6e5ed;
+     color: #000000;
      justify-content: center;
      cursor: pointer;
      text-align: center;
@@ -54,8 +61,9 @@ input {
      height: 50px;
      padding-top: 10px;
      margin-left: 30%;
+     border-radius:30px;
  }
  #btnGen:hover {
-     color: #f5ff90;
-     background-color: #136f63;
+     color: #000000;
+     background-color:#e9afaf;
  }
