@@ -6,7 +6,7 @@
      }
    
    body {
-    background-image: url("/styles/images/mohit-kumar-Gsm7z0nvXNU-unsplash.jpg");
+    background-image: url("/images/mohit-kumar-Gsm7z0nvXNU-unsplash.jpg");
     background-repeat: no-repeat;
      justify-content: center;
      align-items: center;
@@ -37,7 +37,6 @@ input {
     width: 400px;
     border-radius: 6px;
     border: 1px solid;
-    
     border-radius:20px;
     outline: none;
     font-size: 22px;
