@@ -8,12 +8,13 @@ const pwLength = 15;
 function addNewPassword() {
    let password = "";
     // for loop
-    for (let i = 0; i <= pwLength; i++) { 
-      let random =allCharacterTypes[(Math.floor(Math.random() * allCharacterTypes.length))];
+    for (let i = 0; i < pwLength; i++) { 
+       random =allCharacterTypes[(Math.floor(Math.random() * allCharacterTypes.length))];
       password += random;
     }
     return password;
 }
+addNewPassword();
 console.log(addNewPassword());
 
 // bonus: alert 
