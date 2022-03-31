@@ -25,6 +25,7 @@ let genBtn = document.getElementById("btnGen");
 let buttonHandler = () => {
     document.getElementById("password").value = addNewPassword();
 };
+// .value : give the ability to change the value of a text field
 // Event listener for generate PW button
 genBtn.addEventListener("click", buttonHandler);
 
